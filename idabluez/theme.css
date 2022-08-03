@@ -1,0 +1,156 @@
+/* INSTALL: 
+ *
+ * Put this file under the respective directory.
+ * Windows: %APPDATA%\Hex-Rays\IDA Pro\themes\monokai\theme.css
+ * Linux & MacOS: ~/.idapro/themes/monokai/theme.css
+ *
+ * In Options -> Colors change theme to monokai
+ *
+ * */
+@importtheme "dark";
+
+CustomIDAMemo
+{
+    qproperty-line-fg-regular-comment: #75715E;
+    qproperty-line-fg-repeatable-comment: #75715E;
+    qproperty-line-fg-demangled-name: #E6DB74;
+    qproperty-line-fg-charlit-in-insn: #A6E22E;
+    qproperty-line-fg-numlit-in-insn: #A5E12E;
+    qproperty-line-fg-void-opnd: #F92672;
+    qproperty-line-fg-code-xref: #E69F66;
+    qproperty-line-fg-data-xref: #75715E;
+    qproperty-line-fg-data-xref-to-tail: #FFD866;
+    qproperty-line-fg-error: #F92672;
+    qproperty-line-fg-extra-line: #9358FE;
+    qproperty-line-fg-alt-opnd: #F92672;
+    qproperty-line-fg-libfunc: #66D9EE;
+    qproperty-line-fg-locvar: #FD971F;
+    qproperty-line-fg-asm-directive: #A6E22E;
+    qproperty-line-fg-macro: #F92672;
+    qproperty-line-fg-strlit-in-data: #A6E22E;
+    qproperty-line-fg-charlit-in-data: #A6E22E;
+    qproperty-line-fg-numlit-in-data: #A5E12E;
+    qproperty-line-fg-register-name: #66D9EE;
+    qproperty-line-fg-import-name: #F92672;
+    qproperty-line-fg-segment-name: #E6DB74;
+    qproperty-line-fg-dummy-unknown-name: #A6E22E;
+    qproperty-line-fg-code-name: #E5DA74;
+    qproperty-line-fg-unknown-name: #AE82FF;
+    qproperty-line-fg-collapsed-line: #E6DB74;
+    qproperty-line-bg-default: #272822;
+    qproperty-line-pfx-libfunc: #66D9EF;
+    qproperty-line-pfx-func: gray;
+    qproperty-line-pfx-insn: #F92672;
+    qproperty-line-pfx-unexplored: #E6DB74;
+    qproperty-line-pfx-extern: #AE82FF;
+    qproperty-line-pfx-lumina: #A6E22E;
+    qproperty-graph-bg-top: #272822;
+    qproperty-graph-bg-bottom: #272822;
+    qproperty-graph-node-title-normal: #FEFEFE;
+    qproperty-graph-edge-normal: #66D9EF;
+    qproperty-graph-edge-yes: #A6E22E;
+    qproperty-graph-edge-no: #F92672;
+    qproperty-graph-edge-high: #AE81FF;
+    qproperty-graph-edge-current: #FD971F;
+    qproperty-line-bg-highlight: #383A3E;
+    qproperty-line-bgovl-extra-1: rgba(255, 255, 255, 0.200000);
+}
+
+CustomIDAMemo[debugging="true"]
+{
+    qproperty-line-fg-regular-comment: #75715E;
+    qproperty-line-fg-repeatable-comment: #75715E;
+    qproperty-line-fg-insn: #D8D8D3;
+    qproperty-line-fg-demangled-name: #E6DB74;
+    qproperty-line-fg-charlit-in-insn: #A6E22E;
+    qproperty-line-fg-numlit-in-insn: #FD971F;
+    qproperty-line-fg-void-opnd: #F92672;
+    qproperty-line-fg-code-xref: #E69F66;
+    qproperty-line-fg-data-xref: #75715E;
+    qproperty-line-fg-data-xref-to-tail: #FFD866;
+    qproperty-line-fg-error: #FF6188;
+    qproperty-line-fg-extra-line: #AE81FF;
+    qproperty-line-fg-alt-opnd: #F92672;
+    qproperty-line-fg-libfunc: #66D9EF;
+    qproperty-line-fg-locvar: #FD971F;
+    qproperty-line-fg-asm-directive: #A6E22E;
+    qproperty-line-fg-macro: #F92672;
+    qproperty-line-fg-strlit-in-data: #A6E22E;
+    qproperty-line-fg-charlit-in-data: #A6E22E;
+    qproperty-line-fg-numlit-in-data: #FE9720;
+    qproperty-line-fg-register-name: #66D9EF;
+    qproperty-line-fg-import-name: #F92672;
+    qproperty-line-fg-segment-name: #E6DB74;
+    qproperty-line-fg-dummy-unknown-name: #A6E22E;
+    qproperty-line-fg-code-name: #FD971F;
+    qproperty-line-fg-unknown-name: #AE81FF;
+    qproperty-line-fg-collapsed-line: #E6DB74;
+    qproperty-line-pfx-libfunc: #66D9EF;
+    qproperty-line-pfx-func: #4D4B4B;
+    qproperty-line-pfx-insn: #FF6188;
+    qproperty-line-pfx-unexplored: #FFD866;
+    qproperty-line-pfx-extern: #AB9DF2;
+    qproperty-line-pfx-lumina: #A6E22E;
+    qproperty-graph-bg-top: #272822;
+    qproperty-graph-bg-bottom: #272822;
+    qproperty-graph-node-title-normal: #FEFEFE;
+    qproperty-graph-edge-normal: #66D9EF;
+    qproperty-graph-edge-yes: #A6E22E;
+    qproperty-graph-edge-no: #F92672;
+    qproperty-graph-edge-high: #AE81FF;
+    qproperty-graph-edge-current: #FD971F;
+    qproperty-line-bg-highlight: #2D2E27;
+    qproperty-line-bgovl-extra-1: rgba(56, 58, 62, 0.247059);
+}
+
+CustomIDAMemo[hints="true"]
+{
+    qproperty-line-fg-regular-comment: #75715E;
+    qproperty-line-fg-repeatable-comment: #75715E;
+    qproperty-line-fg-insn: #D8D8D3;
+    qproperty-line-fg-demangled-name: #E6DB74;
+    qproperty-line-fg-charlit-in-insn: #A6E22E;
+    qproperty-line-fg-numlit-in-insn: #FD971F;
+    qproperty-line-fg-void-opnd: #F92672;
+    qproperty-line-fg-code-xref: #E69F66;
+    qproperty-line-fg-data-xref: #75715E;
+    qproperty-line-fg-data-xref-to-tail: #FFD866;
+    qproperty-line-fg-error: #FF6188;
+    qproperty-line-fg-extra-line: #AE81FF;
+    qproperty-line-fg-alt-opnd: #F92672;
+    qproperty-line-fg-libfunc: #66D9EF;
+    qproperty-line-fg-locvar: #FD971F;
+    qproperty-line-fg-asm-directive: #A6E22E;
+    qproperty-line-fg-macro: #F92672;
+    qproperty-line-fg-strlit-in-data: #A6E22E;
+    qproperty-line-fg-charlit-in-data: #A6E22E;
+    qproperty-line-fg-numlit-in-data: #FE9720;
+    qproperty-line-fg-register-name: #66D9EF;
+    qproperty-line-fg-import-name: #F92672;
+    qproperty-line-fg-segment-name: #E6DB74;
+    qproperty-line-fg-dummy-unknown-name: #A6E22E;
+    qproperty-line-fg-code-name: #FD971F;
+    qproperty-line-fg-unknown-name: #AE81FF;
+    qproperty-line-fg-collapsed-line: #E6DB74;
+    qproperty-line-pfx-libfunc: #66D9EF;
+    qproperty-line-pfx-func: #4D4B4B;
+    qproperty-line-pfx-insn: #FF6188;
+    qproperty-line-pfx-unexplored: #FFD866;
+    qproperty-line-pfx-extern: #AB9DF2;
+    qproperty-line-pfx-lumina: #A6E22E;
+    qproperty-graph-bg-top: #272822;
+    qproperty-graph-bg-bottom: #272822;
+    qproperty-graph-node-title-normal: #FEFEFE;
+    qproperty-graph-edge-normal: #66D9EF;
+    qproperty-graph-edge-yes: #A6E22E;
+    qproperty-graph-edge-no: #F92672;
+    qproperty-graph-edge-high: #AE81FF;
+    qproperty-graph-edge-current: #FD971F;
+    qproperty-line-bg-highlight: #2D2E27;
+    qproperty-line-bgovl-extra-1: rgba(56, 58, 62, 0.247059);
+}
+
+TextEdit
+{
+    qproperty-keyword2-fg: #60D9EE;
+}
